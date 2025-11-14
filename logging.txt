@@ -1,0 +1,282 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Bharu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "JP Nagar, Mysuru",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "KarKan"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 05:59:35 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "aae87b161973ded4d8328333604f57cb",
+    "scope": "APP",
+    "reference": "38f5097d0740bffade4e1c319a80512838f5097d0740bffade4e1c319a805128",
+    "id": "38f5097d0740bffade4e1c319a805128"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Sahana",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Hannover",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "Germany"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 05:59:36 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "3583450556c37c26d87e4998cd33ef17",
+    "scope": "APP",
+    "reference": "e1d723430a3fb57756a68e7d016a0329e1d723430a3fb57756a68e7d016a0329",
+    "id": "e1d723430a3fb57756a68e7d016a0329"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Bharu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "JP Nagar, Mysuru",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "KarKan"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 06:16:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "fd58637b64ec66f87930e082e7729e40",
+    "scope": "APP",
+    "reference": "ecf3eab869fcca3300e27149c7694862ecf3eab869fcca3300e27149c7694862",
+    "id": "ecf3eab869fcca3300e27149c7694862"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Sahana",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Hannover",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "Germany"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 06:16:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "00d992b027193a95087490b1cdec1f68",
+    "scope": "APP",
+    "reference": "341a5aae9721f15b1ac627e50f4377be341a5aae9721f15b1ac627e50f4377be",
+    "id": "341a5aae9721f15b1ac627e50f4377be"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Apple",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "JP Nagar, Mysuru",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "IOS"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 06:18:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "b72faea0c000ee7a2be9a767130270e3",
+    "scope": "APP",
+    "reference": "7ba5e4aee48b998bf24f33b6738272307ba5e4aee48b998bf24f33b673827230",
+    "id": "7ba5e4aee48b998bf24f33b673827230"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "SAMSUNG",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Hannover",
+    "types": [
+        "Shoe Park",
+        "Shop"
+    ],
+    "website": "http://rahulshettyacademy.com",
+    "language": "Spanish"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 Nov 2025 06:18:39 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d8f55fa365815991417b9e6a86708dfe",
+    "scope": "APP",
+    "reference": "a29d65dcde65d2a8f882c54110bede00a29d65dcde65d2a8f882c54110bede00",
+    "id": "a29d65dcde65d2a8f882c54110bede00"
+}
