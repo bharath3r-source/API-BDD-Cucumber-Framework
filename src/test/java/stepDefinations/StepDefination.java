@@ -16,6 +16,7 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import pojo.Addplace;
 import pojo.GetLocation;
+import resources.APIResources;
 import resources.TestDataBuild;
 import resources.Utils;
 import io.restassured.specification.RequestSpecification;
@@ -32,18 +33,26 @@ public class StepDefination extends Utils{
 	@Given("Add Place Payload {string} {string} {string}")
 	public void add_place_payload(String Name, String Language, String Address)  throws IOException {
 		
-		
-		
-		
 		req=given().spec(requestSpecification()).body(data.addPlacePayLoad(Name, Language, Address));
-		
-		
+			
 	}
 
-	@When("user calls {string} with the Post http request")
-	public void user_calls_with_the_post_http_request(String string) {
-		resspec=new ResponseSpecBuilder().expectStatusCode(200).build();
-		response=req.when().post("maps/api/place/add/json").then().spec(resspec).extract().response();
+	@When("user calls {string} with the {string} http request")
+	public void user_calls_with_the_http_request(String resource, String method) {
+		
+		APIResources  resourceAPI=APIResources.valueOf(resource);  // to initialize the enum constant - valueof will convert string into enum constant
+		
+		
+		if (method.equalsIgnoreCase("POST"))
+		{
+			System.out.println(resourceAPI.getResource());
+			response=req.when().post(resourceAPI.getResource());
+			
+		}else if (method.equalsIgnoreCase("GET"))
+		{
+			System.out.println(resourceAPI.getResource());
+			response=req.when().get(resourceAPI.getResource());
+		}
 		
 	}
 
@@ -54,13 +63,23 @@ public class StepDefination extends Utils{
 	}
 
 	@Then("{string} in response body is {string}")
-	public void in_response_body_is(String string, String string2) {
+	public void in_response_body_is(String Keyvalue, String Expectedvalue) {
 		
-		String ress=response.asString();
-			JsonPath js=new JsonPath(ress);
-			assertEquals(js.get(string),string2);
+			assertEquals(getJsonPath(response,Keyvalue),Expectedvalue);
+			
 	}
 
-	
-	
+	@Then("verify place_Id created maps to {string} using {string}")
+	public void verify_place_id_created_maps_to_using(String ExpectedName, String place) throws IOException {
+	    
+		String Place_ID=getJsonPath(response, "place_id");
+		APIResources  resourceAPI=APIResources.valueOf("getPlaceAPI");
+		req=given().spec(requestSpecification()).queryParam("place_id", Place_ID);
+		user_calls_with_the_http_request("getPlaceAPI", "GET");
+		
+		String ActualName=getJsonPath(response,"name");
+		
+		assertEquals(ActualName, ExpectedName);
+		
+	}
 }
