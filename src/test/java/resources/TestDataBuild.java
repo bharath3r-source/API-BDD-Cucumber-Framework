@@ -35,5 +35,12 @@ public class TestDataBuild {
 		return p;
 	}
 	
+	public String DeletePlacePayLoad(String Place_ID)
+	{
+		return "{\r\n"
+				+ "    \"place_id\":\""+Place_ID+"\"\r\n"
+				+ "}\r\n"
+				+ "";
+	}
 	
 }

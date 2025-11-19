@@ -39,7 +39,7 @@ public class Utils {
 	{
 		Properties prop=new Properties();
 		
-		FileInputStream fis= new FileInputStream("D:\\API Testing\\API BDD Framework\\API BDD Cucumber Framework Code\\APIFramework\\src\\test\\java\\resources\\global.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\APIBDDFramework\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
 		
 		return prop.getProperty(key);
