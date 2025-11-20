@@ -4,7 +4,6 @@
   <artifactId>APIBDDFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-   
   <dependencies>
 		  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 		<dependency>
